@@ -28,3 +28,14 @@ Activate virtual environment
 ```
 export PEER=True && python -m backend.app
 ```
+
+**RUN THE FRONTEND**
+In the frontend directory:
+```
+npm run start
+```
+
+**SEED BACKEND WITH DATA**
+Activate virtual environment
+```
+export SEED_DATA=True && python -m backend.app
